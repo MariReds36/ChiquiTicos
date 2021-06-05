@@ -1,0 +1,58 @@
+body {
+  background-color: #58cfc3;
+}
+
+h2 {
+  font-size: 50px;
+  background-color: white;
+  text-align: left;
+  color: black;
+  width: 300px;
+  padding: 20px;
+  padding-bottom: 40px;
+  position: fixed;
+  left: 0;
+}
+
+.ul_categories {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 15px;
+  padding-top: 60px;
+  margin: 0px;
+  background-color: white;
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 230px;
+}
+
+.ul_categories li {
+  color: black;
+  font-size: 15px;
+  margin: 10px;
+  padding: 5px;
+  display: block;
+  left: 0;
+  top: 200px;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+}
+
+.grid {
+  margin: 40px 500px;
+  margin-bottom: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (250px)[3];
+      grid-template-columns: repeat(3, 250px);
+  grid-template-row: repeat(3, 250px);
+  grid-column-gap: 20px;
+  grid-row-gap: 15px;
+}
+/*# sourceMappingURL=Categorias.css.map */
