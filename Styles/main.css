@@ -1,0 +1,63 @@
+/*# sourceMappingURL=main.css.map */
+@import 'variables';
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-family: 'Raleway', sans-serif;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+}
+.navbar {
+	clear: both;
+	height: 7vh;
+	background-color: #007E84;
+	border-bottom: 2px solid #386C6F;
+}
+.nav-button {
+	display: none;
+}
+#logo {
+	float: left;
+	margin: 0 5px;
+	width: 70px;
+	height: 50px;
+	margin-top: 5px;
+}
+i {
+	color: white;
+	font-size: 3em;
+}
+#navlist {
+	margin: 0;
+	padding: 1.5em;
+	float: right;
+	font-size: 2.5em;
+}
+.clear {
+	clear: both;
+}
+li {
+	display: inline;
+	padding-right: 20px;
+	color: white;
+	font-size: 2.5em;
+}
+a {
+		color: white;
+	}
+}
+footer {
+	height: 9vh;
+	width: 100v;
+	background-color: #386C6F;
+	border-top: 2px solid #386C6F;
+}

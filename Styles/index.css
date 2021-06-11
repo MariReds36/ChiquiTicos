@@ -1,0 +1,79 @@
+@import "variables";
+
+*{
+  background-color: $baseColor;
+}
+
+.main-section {
+	background-color: $baseColor;
+	height: 80vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+	object-fit: cover;
+}
+.main-bg {
+	background-color: #f7af5b;
+	width: 100vw;
+	margin: 0;
+	text-align: center;
+	justify-content: center;
+}
+.bg_img {
+	width: 1000px;
+	height: 500px;
+}
+.categories {
+	background-color: #F5E9DD;
+	display: flex;
+}
+.cat1 {
+	width: 33.34%;
+	height: 30vh;
+	position: relative;
+	text-align: center;
+	justify-content: center;
+	padding: 50px 20px;
+	background-color: #ffde59;
+}
+.cat2 {
+	width: 33.34%;
+	height: 30vh;
+	position: relative;
+	text-align: center;
+	justify-content: center;
+	padding: 50px 20px;
+	background-color: #eacddb;
+}
+.cat3 {
+	width: 33.34%;
+	height: 30vh;
+	position: relative;
+	text-align: center;
+	justify-content: center;
+	padding: 50px 20px;
+	background-color: #8ebfc2;
+}
+.img1 {
+	width: 300px;
+	height: 200px;
+}
+.img2 {
+	width: 300px;
+	height: 200px;
+}
+.img3 {
+	width: 300px;
+	height: 200px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 899px) {
+	.nav-button {
+		background: turquoise;
+		color: white;
+		padding: 10px;
+		display: inline-block;
+		text-decoration: none;
+		border: none;
+		margin: 10px 30px;
+	}
+}
