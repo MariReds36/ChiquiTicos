@@ -1,0 +1,10 @@
+$baseColor: #007E84;
+$OrangeColor: #f7af5b;
+$screenSize: Desktop;
+
+
+@if $screenSize == Desktop {
+    width: 100vw
+}@else $screenSize == Mobile {
+    width: 500vw
+}

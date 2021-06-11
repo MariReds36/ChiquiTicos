@@ -1,0 +1,59 @@
+
+body {
+	background-color: #f0a16d;
+}
+
+.container {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 30vw;
+	height: 60vh;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-negative: 1;
+	flex-shrink: 1;
+	font-size: 80px;
+	line-height: 1.5;
+	border: 2px solid black;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	padding: 40px;
+	margin: 200px auto;
+}
+.button {
+	padding: 10px 20px;
+	font-size: 18px;
+	background-color: teal;
+	color: #fff;
+	border: 3px solid teal;
+	cursor: pointer;
+	height: 50px;
+	width: 200px;
+	&:hover {
+		background-color: #043a3a;
+		border: 3px solid #043a3a;
+	}
+}
+input {
+	width: 25vw;
+}
+textarea {
+	width: 25vw;
+}
+h2 {
+	color: white;
+}
+label {
+	color: white;
+}
+
+/*# sourceMappingURL=ContactUs.css.map */

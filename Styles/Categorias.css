@@ -1,0 +1,70 @@
+body {
+  background-color: #white;
+}
+
+h2 {
+  font-size: 50px;
+  background-color: white;
+  text-align: left;
+  color: black;
+  width: 300px;
+  padding: 20px;
+  padding-bottom: 40px;
+  position: fixed;
+  left: 0;
+}
+
+.ul_categories {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 15px;
+  padding-top: 60px;
+  margin: 0px;
+  background-color: white;
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 230px;
+}
+
+.ul_categories li {
+  color: black;
+  font-size: 15px;
+  margin: 10px;
+  padding: 5px;
+  display: block;
+  left: 0;
+  top: 200px;
+}
+
+img {
+  display: grid;
+  width: 20vw;
+  height:33vh;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 5%;
+  grid-column-gap: 5px;
+  background-color: turquoise;
+  padding:5px;
+}
+
+.grid {
+  margin: 20px;
+  margin-left: 20vw;
+  margin-bottom: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (100px)[3];
+      grid-template-columns: repeat(3, 500px);
+  grid-template-row: repeat(3, 250px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+
+img:hover {
+  transform: scale(1.2);
+
+/*# sourceMappingURL=Categorias.css.map */
