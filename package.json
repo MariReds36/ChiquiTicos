@@ -1,0 +1,22 @@
+{
+  "name": "chiqui-ticos",
+  "version": "1.0.0",
+  "description": "Chiquiticos",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariReds36/ChiquiTicos.git"
+  },
+  "keywords": [
+    "chiquiticos"
+  ],
+  "author": "Mariana Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariReds36/ChiquiTicos/issues"
+  },
+  "homepage": "https://github.com/MariReds36/ChiquiTicos#readme"
+}
